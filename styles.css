@@ -1,0 +1,112 @@
+body {
+  background-color: cornflowerblue;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.nav {
+  background-color: white;
+  width: 101%;
+  height: 85px;
+  margin-top: -10px;
+  margin-left: -10px;
+  margin-right: -10px;
+  margin-bottom: 100px;
+  box-shadow: 0px 5px 10px gray;
+}
+
+.nav button {
+  float: right;
+  margin-right: 25px;
+  margin-top: 25px;
+  background-color: rgb(52, 100, 225);
+  padding: 5px;
+  color: white;
+  /* font-weight: 500; */
+  padding-left: 20px;
+  padding-right: 20px;
+  border-radius: 5px;
+  font-size: large;
+}
+
+.submitBtn button {
+  background-color: rgb(52, 100, 255);
+  padding: 5px;
+  color: white;
+  /* font-weight: 500; */
+  padding-left: 20px;
+  padding-right: 20px;
+  border-radius: 5px;
+  font-size: large;
+  margin-top: 15px;
+  width: 372px;
+}
+
+.signupContainer {
+  background-color: white;
+  /* margin-top: 100px; */
+  border-radius: 5px;
+  justify-content: center;
+  padding: 10px;
+  width: 400px;
+  box-shadow: 2px 5px 10px gray;
+  margin: auto;
+}
+
+.signupInterior {
+  padding: 10px;
+  /* width: 100%; */
+  justify-content: center;
+  margin: auto;
+}
+
+input {
+  /* position: relative; */
+  width: 350px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  /* height: 25px; */
+  border: 1px solid rgb(0, 0, 0, 0.5);
+  border-radius: 5px;
+  color: gray;
+  padding: 10px;
+  justify-content: center;
+}
+
+.circle {
+  /* position: relative; */
+  margin: 15px;
+  width: 40px;
+  height: 40px;
+  border: 1px solid gray;
+  border-radius: 50%;
+  padding-left: -20px;
+}
+
+.flexIcons {
+  /* margin-top: 100px; */
+  padding-top: 15px;
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  /* width: 300px; */
+}
+
+.red {
+  background-color: red;
+}
+
+.blue {
+  background-color: blue;
+}
+
+.green {
+  background-color: green;
+}
+
+.yellow {
+  background-color: yellow;
+}
+
+.black {
+  background-color: black;
+}
